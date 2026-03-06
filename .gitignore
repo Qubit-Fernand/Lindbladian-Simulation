@@ -1,0 +1,14 @@
+.history/
+.vscode/
+.claude/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+jobs/**/*.npy
+
+data/
+data_sigmap/
+archive/
+
+.DS_Store

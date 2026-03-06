@@ -1,0 +1,10 @@
+{
+    "job_name": "test",
+    "command": "sh task_0.sh",
+    "project_id": 3245078,
+    "machine_type": "c8_m64_cpu",
+    "image_address": "registry.dp.tech/dptech/ubuntu:ubuntu24.04-py3.12",
+    "input_directory": ".",
+    "job_group_id": 6750949,
+    "nnode": 1
+}
