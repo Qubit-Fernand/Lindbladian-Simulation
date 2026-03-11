@@ -2,7 +2,7 @@ pip install matplotlib
 pip install qutip
 pip install tqdm
 
-python extrapolation.py --N 5 --t 0.2
+python extrapolation.py --N 5 --t 2.0
 # python extrapolation.py --N 5 --scale 2
 # python extrapolation.py --N 5 --scale 3
 # python extrapolation.py --N 5 --scale 4

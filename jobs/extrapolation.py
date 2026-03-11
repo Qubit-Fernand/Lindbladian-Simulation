@@ -95,23 +95,23 @@ def main():
         if args.initial == "0":
             psi = qt.tensor([qt.basis(2, 0) for _ in range(args.N)])
             rho_0 = qt.ket2dm(psi)
-            gamma_dir = Path(f"./|000>initial/gamma_{gamma}")
+            gamma_dir = Path(f"./|000>extrapolated/gamma_{gamma}")
         elif args.initial == "1":
             psi = qt.tensor([qt.basis(2, 1) for _ in range(args.N)])
             rho_0 = qt.ket2dm(psi)
-            gamma_dir = Path(f"./|111>initial/gamma_{gamma}")
+            gamma_dir = Path(f"./|111>extrapolated/gamma_{gamma}")
         elif args.initial == "+":
             plus = (qt.basis(2, 0) + qt.basis(2, 1)).unit()
             psi = qt.tensor([plus for _ in range(args.N)])
             rho_0 = qt.ket2dm(psi)
-            gamma_dir = Path(f"./|+++>initial/gamma_{gamma}")
+            gamma_dir = Path(f"./|+++>extrapolated/gamma_{gamma}")
         elif args.initial == "01":
             psi = qt.tensor([qt.basis(2, i % 2) for i in range(args.N)])
             rho_0 = qt.ket2dm(psi)
-            gamma_dir = Path(f"./|010>initial/gamma_{gamma}")
+            gamma_dir = Path(f"./|010>extrapolated/gamma_{gamma}")
         elif args.initial == "I":
             rho_0 = qt.qeye([2] * args.N) / (2**args.N)
-            gamma_dir = Path(f"./|mixed>initial/gamma_{gamma}")
+            gamma_dir = Path(f"./|mixed>extrapolated/gamma_{gamma}")
 
         else:
             raise ValueError("Invalid initial state option.")

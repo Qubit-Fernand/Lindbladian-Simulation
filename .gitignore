@@ -8,7 +8,7 @@ __pycache__/
 jobs/**/*.npy
 
 data/
-data_sigmap/
+data_sigmap_right/
 archive/
 
 .DS_Store
