@@ -126,10 +126,10 @@ def main():
         gamma_dir.mkdir(parents=True, exist_ok=True)
         np.save(gamma_dir / f"rho_superexact_N_{args.N}_no_Euler.npy", rho_superexact.full())
 
-        for scale in range(1, 11):
-            for r in [1, 2, 3, 4, 5, 6, 7] * scale:
-                rho_t = propagator_on_rho_0(rho_0, N=args.N, H_x=H_x, H_z=H_z, t=args.t, r=r, L_ops=L_ops)
-                np.save(gamma_dir / f"rho_N_{args.N}_r_{r}_no_Euler.npy", rho_t.full())
+        r_values = sorted({scale * base_r for scale in range(1, 11) for base_r in [1, 2, 3, 4, 5, 6, 7]})
+        for r in r_values:
+            rho_t = propagator_on_rho_0(rho_0, N=args.N, H_x=H_x, H_z=H_z, t=args.t, r=r, L_ops=L_ops)
+            np.save(gamma_dir / f"rho_N_{args.N}_r_{r}_no_Euler.npy", rho_t.full())
 
 
 if __name__ == "__main__":
