@@ -1,0 +1,5 @@
+numpy
+qutip
+cvxpy
+pytest
+tqdm
