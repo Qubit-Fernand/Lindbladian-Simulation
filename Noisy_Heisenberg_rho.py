@@ -36,7 +36,9 @@ NOISE_LABELS = {
 SX = csc_matrix(np.array([[0, 1], [1, 0]], dtype=complex))
 SY = csc_matrix(np.array([[0, -1j], [1j, 0]], dtype=complex))
 SZ = csc_matrix(np.array([[1, 0], [0, -1]], dtype=complex))
-SM = csc_matrix(np.array([[0, 1], [0, 0]], dtype=complex))
+# Explicit |0><1| jump for amplitude damping. Avoid sigmam/sigmap-style names
+# here because QuTiP's naming is easy to misread in this basis convention.
+AMP_DAMP_JUMP = csc_matrix(np.array([[0, 1], [0, 0]], dtype=complex))
 P0 = csc_matrix(np.array([[1, 0], [0, 0]], dtype=complex))
 P1 = csc_matrix(np.array([[0, 0], [0, 1]], dtype=complex))
 ID2 = eye(2, format="csc", dtype=complex)
@@ -67,7 +69,7 @@ def build_noisy_heisenberg(N, J, h, gamma, noise):
     L_ops = []
     for i in range(N):
         if noise == "amplitude_damping":
-            jump = local_operator(N, {i: SM})
+            jump = local_operator(N, {i: AMP_DAMP_JUMP})
         elif noise == "dephasing":
             jump = local_operator(N, {i: SZ})
         else:
@@ -119,7 +121,7 @@ def dephasing_channel(rho, z_op, gamma, dt):
 def amplitude_damping_kraus(N, gamma, dt):
     eta = np.exp(-gamma * dt)
     e0_local = P0 + np.sqrt(eta) * P1
-    e1_local = np.sqrt(1.0 - eta) * SM
+    e1_local = np.sqrt(1.0 - eta) * AMP_DAMP_JUMP
     kraus = []
     for site in range(N):
         e0 = local_operator(N, {site: e0_local}).toarray()
