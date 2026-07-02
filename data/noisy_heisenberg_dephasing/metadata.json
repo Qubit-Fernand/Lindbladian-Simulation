@@ -20,7 +20,9 @@
       5,
       6,
       7,
-      8
+      8,
+      9,
+      10
     ],
     "initials": [
       "0",
@@ -755,6 +757,294 @@
     {
       "model": "1D Heisenberg chain",
       "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.003943844367722588
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.001751017079276505
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0009845930339380006
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0006300347492479738
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.003943844367722578
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.001751017079276373
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0009845930339380151
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0006300347492479825
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0017464933005098048
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0007728803983004654
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.0004340921531974613
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.000277625995576842
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 5.1024679622429815e-15
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 3.779908212285223e-15
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 2.184321870875536e-14
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 9,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 1.214499883018188e-14
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.004246509130816653
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0018853710270371922
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0010601349841647403
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.000678372085255004
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.004246509130816672
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0018853710270371857
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0010601349841644946
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0006783720852548563
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0018765923097018126
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0008304265897339201
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.00046640805869225464
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.00029829227783400843
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 7.026751790750303e-15
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 8.593165879563164e-15
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 2.6419682451896776e-14
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 8.654863848594571e-15
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
       "gamma": 1.0,
       "N": 4,
       "r": 4,
@@ -1471,6 +1761,294 @@
       "r": 10,
       "initial": "I",
       "trace_error": 4.8888635186999244e-14
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.0036131498780654255
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.001604104634325298
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0009019673666086075
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0005771580741412639
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.003613149878065262
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0016041046343256852
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0009019673666085001
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0005771580741411262
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0026141947220130798
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0011589642858225373
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.0006513513665355094
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.0004166977421027712
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 1.8581668142229868e-15
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 4.609441555472721e-15
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 2.2123837167173514e-14
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 9,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 1.2307194705609423e-14
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.0038918605855293416
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0017277958471350358
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0009715083483729566
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0006216538564004282
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.003891860585529153
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0017277958471349523
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0009715083483734209
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0006216538564002081
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0028217367451685
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.001251013717051167
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.0007030919288717342
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.00044980071993484474
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 3.214893337265761e-15
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 1.3218888223009442e-14
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 2.594365124469769e-14
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "dephasing",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 5.879216603806646e-15
     }
   ],
   "sanity_warnings": []

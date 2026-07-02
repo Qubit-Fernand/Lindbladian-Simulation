@@ -215,6 +215,49 @@ def monotonicity_warnings(rows):
     return warnings
 
 
+def row_key(row):
+    return (row["noise"], row["gamma"], row["N"], row["r"], row["initial"])
+
+
+def sort_rows(rows):
+    initial_order = {initial: idx for idx, initial in enumerate(INITIALS)}
+    return sorted(
+        rows,
+        key=lambda row: (
+            row["noise"],
+            float(row["gamma"]),
+            int(row["N"]),
+            initial_order.get(row["initial"], 99),
+            int(row["r"]),
+        ),
+    )
+
+
+def merge_existing_metadata(summary_path, results):
+    if not summary_path.exists():
+        results["rows"] = sort_rows(results["rows"])
+        return results
+
+    try:
+        existing = json.loads(summary_path.read_text())
+    except json.JSONDecodeError:
+        results["rows"] = sort_rows(results["rows"])
+        return results
+
+    rows = {row_key(row): row for row in existing.get("rows", [])}
+    rows.update({row_key(row): row for row in results["rows"]})
+    merged_rows = sort_rows(rows.values())
+    results["rows"] = merged_rows
+    results["parameters"]["gammas"] = sorted({row["gamma"] for row in merged_rows})
+    results["parameters"]["r_list"] = sorted({row["r"] for row in merged_rows})
+    results["parameters"]["N_list"] = sorted({row["N"] for row in merged_rows})
+    results["parameters"]["initials"] = [
+        initial for initial in INITIALS if any(row["initial"] == initial for row in merged_rows)
+    ]
+    results["sanity_warnings"] = monotonicity_warnings(merged_rows)
+    return results
+
+
 def run_experiment(args):
     rows = []
     initials = INITIALS if args.initial == "all" else (args.initial,)
@@ -303,6 +346,7 @@ def main():
     metadata_dir = args.data_root / f"noisy_heisenberg_{args.noise}"
     metadata_dir.mkdir(parents=True, exist_ok=True)
     summary_path = metadata_dir / "metadata.json"
+    results = merge_existing_metadata(summary_path, results)
     summary_path.write_text(json.dumps(results, indent=2), encoding="utf-8")
 
     if results["sanity_warnings"]:

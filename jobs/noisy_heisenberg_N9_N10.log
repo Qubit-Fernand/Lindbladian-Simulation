@@ -5,3 +5,20 @@ python=/opt/anaconda3/bin/python3
 amplitude_damping, gamma=0.1:   0%|          | 0/1 [00:00<?, ?it/s]amplitude_damping, gamma=0.1: 100%|██████████| 1/1 [05:25<00:00, 325.92s/it]amplitude_damping, gamma=0.1: 100%|██████████| 1/1 [05:25<00:00, 325.92s/it]
 amplitude_damping, gamma=1:   0%|          | 0/1 [00:00<?, ?it/s]amplitude_damping, gamma=1: 100%|██████████| 1/1 [05:05<00:00, 305.67s/it]amplitude_damping, gamma=1: 100%|██████████| 1/1 [05:05<00:00, 305.67s/it]
 Wrote data/noisy_heisenberg_amplitude_damping/metadata.json
+===== restart remaining Wed Jul  1 23:48:38 CST 2026 =====
+===== noise=amplitude_damping N=10 Wed Jul  1 23:48:38 CST 2026 =====
+amplitude_damping, gamma=0.1:   0%|          | 0/1 [00:00<?, ?it/s]amplitude_damping, gamma=0.1: 100%|██████████| 1/1 [11:51<00:00, 711.21s/it]amplitude_damping, gamma=0.1: 100%|██████████| 1/1 [11:51<00:00, 711.21s/it]
+amplitude_damping, gamma=1:   0%|          | 0/1 [00:00<?, ?it/s]amplitude_damping, gamma=1: 100%|██████████| 1/1 [11:58<00:00, 718.90s/it]amplitude_damping, gamma=1: 100%|██████████| 1/1 [11:58<00:00, 718.90s/it]
+Wrote data/noisy_heisenberg_amplitude_damping/metadata.json
+===== restart dephasing only Thu Jul  2 08:57:23 CST 2026 =====
+===== noise=dephasing N=9 Thu Jul  2 08:57:23 CST 2026 =====
+dephasing, gamma=0.1:   0%|          | 0/1 [00:00<?, ?it/s]dephasing, gamma=0.1: 100%|██████████| 1/1 [01:09<00:00, 69.29s/it]dephasing, gamma=0.1: 100%|██████████| 1/1 [01:09<00:00, 69.29s/it]
+dephasing, gamma=1:   0%|          | 0/1 [00:00<?, ?it/s]dephasing, gamma=1: 100%|██████████| 1/1 [01:10<00:00, 70.55s/it]dephasing, gamma=1: 100%|██████████| 1/1 [01:10<00:00, 70.55s/it]
+Wrote data/noisy_heisenberg_dephasing/metadata.json
+/tmp/run_noisy_heis_deph_N9_N10.sh:10: read-only variable: status
+===== restart dephasing N=10 fixed Thu Jul  2 09:08:18 CST 2026 =====
+===== noise=dephasing N=10 Thu Jul  2 09:08:18 CST 2026 =====
+dephasing, gamma=0.1:   0%|          | 0/1 [00:00<?, ?it/s]dephasing, gamma=0.1: 100%|██████████| 1/1 [07:35<00:00, 455.02s/it]dephasing, gamma=0.1: 100%|██████████| 1/1 [07:35<00:00, 455.02s/it]
+dephasing, gamma=1:   0%|          | 0/1 [00:00<?, ?it/s]dephasing, gamma=1: 100%|██████████| 1/1 [07:45<00:00, 465.85s/it]dephasing, gamma=1: 100%|██████████| 1/1 [07:45<00:00, 465.85s/it]
+Wrote data/noisy_heisenberg_dephasing/metadata.json
+===== done noise=dephasing N=10 status=0 Thu Jul  2 09:23:40 CST 2026 =====

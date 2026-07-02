@@ -16,7 +16,13 @@
       10
     ],
     "N_list": [
-      9
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "initials": [
       "0",
@@ -32,10 +38,730 @@
       "model": "1D Heisenberg chain",
       "noise": "amplitude_damping",
       "gamma": 0.1,
+      "N": 4,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.0018164122871904124
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0008067655396704973
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0004537014957078347
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0002903381126281914
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.0018363222856888407
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0008155765451306044
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0004586502749973658
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.00029350314123423175
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0008261926338649487
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.00036601764823197586
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.00020565358563756254
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.0001315498532440485
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 3.093936941750774e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 1.3742756637269066e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 7.72871376820168e-06
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 4,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 4.945907057477704e-06
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.0024158964433950453
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0010728042885094458
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0006032700461758827
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0003860388327081302
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.00244009679835734
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0010835114977551495
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.000609283354058217
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.00038988454266220506
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0010387225319361728
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0004598186517079013
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.00025828836499936663
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.00016519822289556951
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 3.9616057848936505e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 1.7595115015447704e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 9.894891342776964e-06
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 5,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 6.332031773731332e-06
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.0028933397505755696
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0012847240015144337
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.000722420569086174
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.00046227910445028383
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.00291820351328328
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0012957197133522595
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0007285948425257284
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.00046622743878885556
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0012163477406923963
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0005382803840174432
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.00030232885400566077
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.0001933563116277523
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 4.4408349394319757e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 1.9723355696302864e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 1.1091702544676303e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 6,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 7.0978953494294646e-06
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.003302478621904803
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.001466336217294556
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0008245328177060581
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0005276177384358669
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.0033277124985781705
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0014774911391495645
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0008307956362958893
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0005316224463977515
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.001372365915750876
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0006072162544751151
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.0003410260875864289
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.00021809915384161805
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 5.2131835576721115e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 2.3152256919370145e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 1.301972019224124e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 7,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 8.33160773985804e-06
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.003666242865034389
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0016278114386814313
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0009153239260493282
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0005857125990928959
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.0036922428918255814
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0016393037076536255
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0009217757699507983
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0005898380636490046
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0015133052199131922
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0006695005782271269
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.00037599161201002355
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.0002404565908085846
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 5.685529181995835e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 2.5249510623324326e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 1.4199021891073017e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 8,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 9.086241528106838e-06
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
       "N": 9,
       "r": 4,
       "initial": "0",
-      "trace_error": 0.003997040399445086
+      "trace_error": 0.003997040399445085
     },
     {
       "model": "1D Heisenberg chain",
@@ -44,7 +770,7 @@
       "N": 9,
       "r": 6,
       "initial": "0",
-      "trace_error": 0.001774655467823746
+      "trace_error": 0.0017746554678237467
     },
     {
       "model": "1D Heisenberg chain",
@@ -53,7 +779,7 @@
       "N": 9,
       "r": 8,
       "initial": "0",
-      "trace_error": 0.0009978890380166357
+      "trace_error": 0.0009978890380166363
     },
     {
       "model": "1D Heisenberg chain",
@@ -62,7 +788,7 @@
       "N": 9,
       "r": 10,
       "initial": "0",
-      "trace_error": 0.0006385440213455497
+      "trace_error": 0.0006385440213455498
     },
     {
       "model": "1D Heisenberg chain",
@@ -71,7 +797,7 @@
       "N": 9,
       "r": 4,
       "initial": "1",
-      "trace_error": 0.004024051579979707
+      "trace_error": 0.0040240515799797065
     },
     {
       "model": "1D Heisenberg chain",
@@ -80,7 +806,7 @@
       "N": 9,
       "r": 6,
       "initial": "1",
-      "trace_error": 0.001786594786496233
+      "trace_error": 0.0017865947864962326
     },
     {
       "model": "1D Heisenberg chain",
@@ -89,7 +815,7 @@
       "N": 9,
       "r": 8,
       "initial": "1",
-      "trace_error": 0.0010045917736859807
+      "trace_error": 0.0010045917736859812
     },
     {
       "model": "1D Heisenberg chain",
@@ -98,7 +824,7 @@
       "N": 9,
       "r": 10,
       "initial": "1",
-      "trace_error": 0.0006428298818059407
+      "trace_error": 0.0006428298818059403
     },
     {
       "model": "1D Heisenberg chain",
@@ -107,7 +833,7 @@
       "N": 9,
       "r": 4,
       "initial": "+",
-      "trace_error": 0.0016429273924617584
+      "trace_error": 0.0016429273924617582
     },
     {
       "model": "1D Heisenberg chain",
@@ -125,7 +851,7 @@
       "N": 9,
       "r": 8,
       "initial": "+",
-      "trace_error": 0.0004081550357531744
+      "trace_error": 0.0004081550357531743
     },
     {
       "model": "1D Heisenberg chain",
@@ -134,7 +860,7 @@
       "N": 9,
       "r": 10,
       "initial": "+",
-      "trace_error": 0.0002610227501810429
+      "trace_error": 0.00026102275018104285
     },
     {
       "model": "1D Heisenberg chain",
@@ -143,7 +869,7 @@
       "N": 9,
       "r": 4,
       "initial": "I",
-      "trace_error": 6.172731320607845e-05
+      "trace_error": 6.172731320607848e-05
     },
     {
       "model": "1D Heisenberg chain",
@@ -152,7 +878,7 @@
       "N": 9,
       "r": 6,
       "initial": "I",
-      "trace_error": 2.7412503296369974e-05
+      "trace_error": 2.7412503296369978e-05
     },
     {
       "model": "1D Heisenberg chain",
@@ -175,11 +901,875 @@
     {
       "model": "1D Heisenberg chain",
       "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.004302480432743702
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0019102453119914445
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0010741267380665344
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0006873268020992902
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.004330587020821109
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.001922669064708593
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0010811014119934898
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0006917865380774965
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0017636268062806888
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0007801427184516926
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.00043810828714321685
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.0002801759596998887
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 6.562827112170221e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 2.9144993936846033e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 1.638952239342747e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 0.1,
+      "N": 10,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 1.0487952260934663e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.0017213725362060454
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0007645528782620082
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0004299622435939214
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0002751465828224034
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.0017835163528714948
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0007919415044730525
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.00044532326135371
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0002849643198505946
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.001053797269897716
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.00046722929229387947
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.00026259596903067836
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.0001679962097968862
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 0.0002930099743611837
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 0.00013016513694877866
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 7.320579069273171e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 4,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 4.684812343977731e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.0022844539959311367
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0010144372436268734
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0005704488708166126
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.00036503633554123445
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.00234910074487016
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0010428874357687533
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0005863971116774941
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0003752269739587757
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0013263225384745783
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0005877610514386116
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.0003302798285679026
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.00021127985137916073
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 0.00037184693112121036
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 0.00016516245980421847
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 9.288367501490463e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 5,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 5.943956997132865e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.002733621589276867
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0012138018938132478
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0006825399846409631
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0004367594460894785
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.002791854860450537
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0012393722420342306
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0006968621632776294
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.00044590757200785823
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0015651439939428293
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0006934814877915108
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.0003896652196948279
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.00024926219643323685
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 0.0004188673405113286
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 0.00018604473781615502
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 0.00010462689909037914
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 6,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 6.695433106563444e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.003118835245834395
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0013847944610233863
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.000778681262600132
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0004982774137064903
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.0031798339949124996
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0014115356964302665
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0007936508857052703
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.000507836619450845
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0017779627006952745
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.000787708877158554
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.00044259818042696253
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.0002831186463964277
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 0.0004893626518871588
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 0.0002173444467254479
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 0.00012222678138647253
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 7,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 7.821641858818873e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.003461459679532055
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.0015368831034203454
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.0008641947316441584
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0005529952903957762
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.003525645402689164
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0015649951450986198
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0008799258968239608
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0005630390480387557
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.001974884192329794
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.0008749146147393717
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.0004915899919125718
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.00031445527776288935
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 0.0005351050104827947
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 0.0002376567428455009
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 0.0001336489918576739
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 8,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 8.552561137946079e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
       "gamma": 1.0,
       "N": 9,
       "r": 4,
       "initial": "0",
-      "trace_error": 0.003773127657879076
+      "trace_error": 0.0037731276578790753
     },
     {
       "model": "1D Heisenberg chain",
@@ -197,7 +1787,7 @@
       "N": 9,
       "r": 8,
       "initial": "0",
-      "trace_error": 0.0009419821984850925
+      "trace_error": 0.0009419821984850924
     },
     {
       "model": "1D Heisenberg chain",
@@ -206,7 +1796,7 @@
       "N": 9,
       "r": 10,
       "initial": "0",
-      "trace_error": 0.0006027695890738809
+      "trace_error": 0.0006027695890738808
     },
     {
       "model": "1D Heisenberg chain",
@@ -215,7 +1805,7 @@
       "N": 9,
       "r": 4,
       "initial": "1",
-      "trace_error": 0.0038399934108332267
+      "trace_error": 0.003839993410833226
     },
     {
       "model": "1D Heisenberg chain",
@@ -224,7 +1814,7 @@
       "N": 9,
       "r": 6,
       "initial": "1",
-      "trace_error": 0.001704498726196449
+      "trace_error": 0.0017044987261964498
     },
     {
       "model": "1D Heisenberg chain",
@@ -233,7 +1823,7 @@
       "N": 9,
       "r": 8,
       "initial": "1",
-      "trace_error": 0.0009583561890339376
+      "trace_error": 0.0009583561890339373
     },
     {
       "model": "1D Heisenberg chain",
@@ -242,7 +1832,7 @@
       "N": 9,
       "r": 10,
       "initial": "1",
-      "trace_error": 0.0006132224696367779
+      "trace_error": 0.000613222469636778
     },
     {
       "model": "1D Heisenberg chain",
@@ -251,7 +1841,7 @@
       "N": 9,
       "r": 4,
       "initial": "+",
-      "trace_error": 0.0021584657234408945
+      "trace_error": 0.002158465723440895
     },
     {
       "model": "1D Heisenberg chain",
@@ -260,7 +1850,7 @@
       "N": 9,
       "r": 6,
       "initial": "+",
-      "trace_error": 0.0009562265948823876
+      "trace_error": 0.0009562265948823874
     },
     {
       "model": "1D Heisenberg chain",
@@ -278,7 +1868,7 @@
       "N": 9,
       "r": 10,
       "initial": "+",
-      "trace_error": 0.0003436765642317731
+      "trace_error": 0.0003436765642317729
     },
     {
       "model": "1D Heisenberg chain",
@@ -287,7 +1877,7 @@
       "N": 9,
       "r": 4,
       "initial": "I",
-      "trace_error": 0.0005801249989292609
+      "trace_error": 0.0005801249989292607
     },
     {
       "model": "1D Heisenberg chain",
@@ -296,7 +1886,7 @@
       "N": 9,
       "r": 6,
       "initial": "I",
-      "trace_error": 0.0002576451579677744
+      "trace_error": 0.00025764515796777436
     },
     {
       "model": "1D Heisenberg chain",
@@ -314,7 +1904,151 @@
       "N": 9,
       "r": 10,
       "initial": "I",
-      "trace_error": 9.271767742112213e-05
+      "trace_error": 9.27176774211221e-05
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 4,
+      "initial": "0",
+      "trace_error": 0.004060958857587371
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 6,
+      "initial": "0",
+      "trace_error": 0.001803000892494183
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 8,
+      "initial": "0",
+      "trace_error": 0.001013823341126703
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 10,
+      "initial": "0",
+      "trace_error": 0.0006487391045146639
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 4,
+      "initial": "1",
+      "trace_error": 0.004129431523435386
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 6,
+      "initial": "1",
+      "trace_error": 0.0018329540644116372
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 8,
+      "initial": "1",
+      "trace_error": 0.0010305763125705242
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 10,
+      "initial": "1",
+      "trace_error": 0.0006594327040038987
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 4,
+      "initial": "+",
+      "trace_error": 0.0023309062068251063
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 6,
+      "initial": "+",
+      "trace_error": 0.00103261187077033
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 8,
+      "initial": "+",
+      "trace_error": 0.0005801904225394698
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 10,
+      "initial": "+",
+      "trace_error": 0.00037112877559985363
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 4,
+      "initial": "I",
+      "trace_error": 0.0006173735994802439
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 6,
+      "initial": "I",
+      "trace_error": 0.00027418855461358355
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 8,
+      "initial": "I",
+      "trace_error": 0.00015419185966970858
+    },
+    {
+      "model": "1D Heisenberg chain",
+      "noise": "amplitude_damping",
+      "gamma": 1.0,
+      "N": 10,
+      "r": 10,
+      "initial": "I",
+      "trace_error": 9.867119034345e-05
     }
   ],
   "sanity_warnings": []
