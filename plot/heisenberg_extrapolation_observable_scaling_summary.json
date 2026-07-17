@@ -1,0 +1,138 @@
+{
+  "heisenberg-extrapolation-5-111-amplitude_damping_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.029651388846424,
+      "original_slope": -1.9690261323230656,
+      "exact_observable": -4.795950504176579
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.044416543026543,
+      "original_slope": -2.0635319749622827,
+      "exact_observable": -3.560083955634794
+    }
+  },
+  "heisenberg-extrapolation-5-000-amplitude_damping_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.024819210810126,
+      "original_slope": -1.9738111880467508,
+      "exact_observable": 4.944274480967434
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.026972501702903,
+      "original_slope": -1.9710710438069596,
+      "exact_observable": 4.947886307038668
+    }
+  },
+  "heisenberg-extrapolation-5-111-amplitude_damping_zz_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.0233476533308465,
+      "original_slope": -1.9818051387469269,
+      "exact_observable": 3.680182598161854
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.010374665040176,
+      "original_slope": -1.9740291277634623,
+      "exact_observable": 2.0278716433869253
+    }
+  },
+  "heisenberg-extrapolation-5-000-amplitude_damping_zz_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.02101233945843,
+      "original_slope": -1.982147671533331,
+      "exact_observable": 3.9113360229033263
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.024222744607847,
+      "original_slope": -1.9799071430163138,
+      "exact_observable": 3.917052625180922
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "extrapolation-5-111_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.187046727241594,
+      "original_slope": -1.994515544943546,
+      "exact_observable": -1.824317551396552
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -5.662448185569576,
+      "original_slope": -1.9702528484661428,
+      "exact_observable": 3.2375526950856828
+    }
+  },
+  "extrapolation-5-000_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -3.5837894401994794,
+      "original_slope": -1.9997827792768668,
+      "exact_observable": 4.9049190171308625
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -4.663120981611002,
+      "original_slope": -1.9997083890706049,
+      "exact_observable": 4.913024555922597
+    }
+  },
+  "extrapolation-5-+++_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": 0.25484724363873856,
+      "original_slope": -1.9998882861925888,
+      "exact_observable": 0.10034641363116914
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -3.450186360634591,
+      "original_slope": -2.0000565396468195,
+      "exact_observable": 0.9175696439941752
+    }
+  },
+  "extrapolation-5-mixed_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": 0.11949194400898618,
+      "original_slope": -1.9971741718975125,
+      "exact_observable": 0.0983578392088798
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -3.399865185055765,
+      "original_slope": -1.9976162326266111,
+      "exact_observable": 0.9005438359434199
+    }
+  },
+  "extrapolation-5-111_zz_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -6.181445756278603,
+      "original_slope": -1.9892570555659674,
+      "exact_observable": 1.3314381393787271
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -5.816994989794345,
+      "original_slope": -1.9811208092341546,
+      "exact_observable": 1.8188924798703214
+    }
+  },
+  "extrapolation-5-000_zz_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -3.654125234743468,
+      "original_slope": -1.9997798874088426,
+      "exact_observable": 3.8502991243461913
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -4.844618169907535,
+      "original_slope": -1.9996939554042412,
+      "exact_observable": 3.8629421711469125
+    }
+  },
+  "extrapolation-5-+++_zz_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -2.918463717922949,
+      "original_slope": -2.0007284194266703,
+      "exact_observable": 0.296040078623474
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -2.8926825722037046,
+      "original_slope": -2.0006100432908305,
+      "exact_observable": 0.36587266598967516
+    }
+  },
+  "extrapolation-5-mixed_zz_scaling.pdf": {
+    "gamma=0.1": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -0.06798312213382465,
+      "original_slope": -1.9960347372835348,
+      "exact_observable": 0.0015480228373798144
+    },
+    "gamma=1.0": {
+      "available_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extrapolated_slope": -3.267804463977891,
+      "original_slope": -1.9963026804954427,
+      "exact_observable": 0.12976805121744864
+    }
+  }
+}

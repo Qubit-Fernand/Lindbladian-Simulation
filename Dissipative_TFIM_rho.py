@@ -28,15 +28,17 @@ def build_dissipative_tfim(N, J, h, gamma):
     H = H_x + H_z
 
     # 2. 构建耗散算符 (Collapse Operators)
-    # 这里使用 sigma_minus (自旋弛豫)
+    # Historical pitfall: QuTiP's sigmam/sigmap names are easy to misread here.
+    # The corrected data under data/ uses sigmap() = |0><1|, i.e. |1> -> |0|.
     L_ops = []
-    First_version = 1
     for i in range(N):
-        if First_version:
-            # sigmam() |1><0|
-            L_i = qt.tensor([qt.qeye(2)] * i + [qt.sigmam()] + [qt.qeye(2)] * (N - i - 1))
-        else:
-            L_i = qt.tensor([qt.qeye(2)] * i + [qt.sigmap()] + [qt.qeye(2)] * (N - i - 1))
+        # Old first-version branch used qt.sigmam() = |1><0|; do not revive it
+        # unless intentionally regenerating the opposite jump direction.
+        # First_version = 1
+        # if First_version:
+        #     L_i = qt.tensor([qt.qeye(2)] * i + [qt.sigmam()] + [qt.qeye(2)] * (N - i - 1))
+        # else:
+        L_i = qt.tensor([qt.qeye(2)] * i + [qt.sigmap()] + [qt.qeye(2)] * (N - i - 1))
         L_ops.append(np.sqrt(gamma) * L_i)  # why square root here
 
     return H_x, H_z, L_ops
